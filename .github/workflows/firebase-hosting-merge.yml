@@ -11,7 +11,6 @@ on:
   workflow_dispatch:
 
 jobs:
-
   build:
     name: Flutter Build
 
@@ -19,8 +18,8 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      JAVA_VERSION: "11.0"
-      FLUTTER_VERSION: "3.10.0"
+      JAVA_VERSION: "17.0"
+      FLUTTER_VERSION: "3.24.0"
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
@@ -54,4 +53,3 @@ jobs:
           firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_WEBAPPPUBLISH }}
           channelId: live
           projectId: webapppublish
-
