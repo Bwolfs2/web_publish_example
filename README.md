@@ -21,4 +21,8 @@ flutter build web
     firebase login
     firebase init
 
-    firebase deploy
+-- Change the firebase.json
+"public": "web" to "public": "build/web",
+
+-- Publish ( Manually )
+firebase deploy
