@@ -26,3 +26,5 @@ flutter build web
 
 -- Publish ( Manually )
 firebase deploy
+
+-- Configure the Workflow
